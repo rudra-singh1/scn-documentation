@@ -1,7 +1,7 @@
 --
 layout: default
 title: Welcome
-parent: Wireless Communication
+parent: Learn
 nav_order: 1
 ---
 
