@@ -2,7 +2,6 @@
 layout: default
 title: Welcome
 parent: Get Started
-nav_order: 1
 ---
 
 # Documentation
