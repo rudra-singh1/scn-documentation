@@ -1,18 +1,75 @@
-# SCCN Docs
-This repository contains the contents of the [Seattle Community Cellular Network Documentation website](https://anisa-su.github.io/sccn-documentation/). It is intended to provide interested community members s guidebook discussing how to get involved in the community network from a technical perspective.
+# SCN Docs
+This repository contains the contents of the [Seattle Community Network Docs](https://dominickta.github.io/scn-documentation/). It is intended to provide interested community members a guidebook on how to get involved in the community and learn.
 
-The remainder of this document describes the process for contributing to the documentation website itself. test
+The remainder of this document describes the process for contributing to the documentation website itself.
 
-## Table of Contents
-1. [Using hackMD](##using-hackMD) 
-2. [Using Github](##using-Github)
+WORK IN PROGRESS:
 
-## Using hackMD
-1. If creating a new file, have to create it in the repo first I think
-2. Go to hackMD page and click on the note you want to edit or the newly created one
-3. Edit in HackMD (can only change markdown, not navigation/other navigation stuff like YAML front matter)
+## Editing process
+To edit this documentation you must:
+1. Get your own copy of the repo
+2. Modify the documentation in your own repo
+3. Submit a pull request
+4. Wait for someone to review and accept the request
 
-## Using Github
-1. Clone repo locally (Describe prereqs like git and walk through command line commands)
-2. Make changes locally
-3. Pull request to the repo
+## Markdown files
+All our documentation is stored in 'Markdown' files so that they can be easily
+modified and changed without heavy technical knowledge.
+
+## Documentation Directory Structure
+
+### Top-level pages
+An example of a 'top-level page' would be the 'Get Started' page.
+The 'Get Started' page is located in the top-level directory inside the markdown file
+'get-started.md'. Note that the file name doesn't affect anything but the page's name
+in the URL (get-started.html). Everything else is controlled by the stuff inside
+the 'YAML Front Matter' of the markdown file.
+
+Here is the YAML front matter for 'Get Started':
+```
+---
+layout: default
+title: Get Started
+nav_order: 2
+---
+```
+
+- The layout is the default layout (there are currently no other layouts).
+- The title represents the display name of the page and is important for connecting it with other pages.
+- The nav_order dictates that this page is the 2nd from the top in the sidebar.
+
+### Parent pages
+An example of a 'parent page' would be the 'Learn' page.
+The 'Learn' page is located in the learn directory as 'learn/index.md'.
+Note that the 'Learn' page is almost the same as a top-level page, except it has children pages.
+
+Here is the YAML front matter for 'Learn'
+```
+---
+layout: default
+title: Learn
+nav_order: 4
+has_children: true
+---
+```
+
+- The 'title' represents the display name of this page and is also what the children
+pages will use to reference this page as their parent.
+- The 'has_children' is what dictates 'Learn' to be a parent page.
+
+### Children pages
+An example of a 'children page' would be the 'Wireless Communication' page inside the learn directory as 'learn/wireless-communication.md'.
+
+Here is the YAML front matter for 'Wireless Communication':
+```
+---
+layout: default
+title: Wireless Communication
+parent: Learn
+nav_order: 1
+---
+```
+
+- The 'parent' is used to mark the 'Learn' page as a parent, which causes this page to
+appear underneath 'Learn' as a dropdown page.
+- The 'nav_order' is used to enforce that this page occurs as the first page underneath 'Learn'
