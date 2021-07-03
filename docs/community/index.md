@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get Started
+title: Community
 nav_order: 3
 has_children: true
 ---
