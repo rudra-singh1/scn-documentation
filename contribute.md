@@ -2,8 +2,19 @@
 title: Contribute to SCN Docs
 ---
 
+# Contribute to SCN Docs
+
+## Looking to help?
+
+If you wanna share resources and help improve our docs, this page will get you started!
+Our docs are designed so that anyone can contribute. If this page isn't enough, contact one of
+us and we'll be able to help you!
+
+Our documentation uses the [Just the Docs](https://pmarsceill.github.io/just-the-docs/) Jekyll theme.
+This theme provides a lot of nice features, so look there for help too!
+
 ## Editing process
-To edit this documentation you must:
+To edit this documentation you should:
 1. Get your own copy of the [repo](example.com) TODO
 2. Modify the documentation in your own repo
 3. Submit a pull request
