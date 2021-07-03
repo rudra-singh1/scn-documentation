@@ -16,6 +16,14 @@ To edit this documentation you must:
 All our documentation is stored in 'Markdown' files so that they can be easily
 modified and changed without heavy technical knowledge.
 
+### Markdown Editors
+
+- A nice and simple online editor is [StackEdit](https://stackedit.io/app#) which will let you type in markdown and see what it would look like in realtime in split-screen.
+
+- Another option is [HackMD](https://hackmd.io/) which has the same features as StackEdit
+but it also allows you to connect to your own GitHub repo and pull/push.
+	- This is a nice option if you are uncomfortable with using Git from the command line.
+
 ## Documentation Directory Structure
 
 ### Top-level pages
