@@ -7,3 +7,11 @@ nav_order: 2
 Lost? You're in the right place!
 
 ...
+
+## Slack
+
+## Social Media
+
+## Useful Links
+- beep
+- boop

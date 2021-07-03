@@ -1,6 +1,6 @@
 ---
 title: SAS Setup
-parent: Learn
+parent: Infrastructure
 ---
 
 # eNodeB SAS Setup

@@ -1,6 +1,6 @@
 ---
 title: EPC Setup
-parent: Learn
+parent: Infrastructure
 ---
 
 # EPC Installation and Setup
