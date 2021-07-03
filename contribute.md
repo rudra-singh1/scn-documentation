@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Contribute to SCN Docs
 ---
 
@@ -34,13 +33,11 @@ the 'YAML Front Matter' of the markdown file.
 Here is the YAML front matter for 'Get Started':
 ```
 ---
-layout: default
 title: Get Started
 nav_order: 2
 ---
 ```
 
-- The layout is the default layout (there are currently no other layouts).
 - The title represents the display name of the page and is important for connecting it with other pages.
 - The nav_order dictates that this page is the 2nd from the top in the sidebar.
 
@@ -52,7 +49,6 @@ Note that the 'Learn' page is almost the same as a top-level page, except it has
 Here is the YAML front matter for 'Learn'
 ```
 ---
-layout: default
 title: Learn
 nav_order: 4
 has_children: true
@@ -69,7 +65,6 @@ An example of a 'children page' would be the 'Wireless Communication' page insid
 Here is the YAML front matter for 'Wireless Communication':
 ```
 ---
-layout: default
 title: Wireless Communication
 parent: Learn
 nav_order: 1

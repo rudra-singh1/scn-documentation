@@ -1,5 +1,4 @@
 ---
-layout: default
 title: EPC Setup
 parent: Learn
 ---

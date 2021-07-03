@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Wireless Communication
 parent: Learn
 nav_order: 1

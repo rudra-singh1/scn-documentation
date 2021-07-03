@@ -1,5 +1,4 @@
 ---
-layout: default
 title: SAS Setup
 parent: Learn
 ---
