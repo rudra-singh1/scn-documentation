@@ -1,9 +1,9 @@
 ---
-title: LTE Architecture
+title: LTE Networks
 parent: Learn
 ---
 
-# LTE Architecture
+# LTE Networks
 
 Our network uses a 4G LTE network architecture. Understanding everything is a huge challenge, but understanding it at a high-level is very achievable.
 
