@@ -15,7 +15,7 @@ This theme provides a lot of nice features, so look there for help too!
 
 ## Editing process
 To edit this documentation you should:
-1. Get your own copy of the [repo](example.com) TODO
+1. Get your own copy of the [repo](https://github.com/Local-Connectivity-Lab/scn-documentation)
 2. Modify the documentation in your own repo
 3. Submit a pull request
 4. Wait for someone to review and accept the request

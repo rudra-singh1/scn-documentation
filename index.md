@@ -4,7 +4,7 @@ nav_order: 1
 ---
 
 # Seattle Community Network Docs
-Hello and welcome to the documentation website for [Seattle Community Network](https://seattlecommunitynetwork.org/)! 
+Hello and welcome to the documentation website for [Seattle Community Network](https://seattlecommunitynetwork.org/)! If you're looking for our main website, it is located at [seattlecommunitynetwork.org](https://seattlecommunitynetwork.org/).
 ## About Seattle Community Cellular Network
 We are a community network dedicated to providing fair access to underserved communities all across the Puget Sound. SCN is a 501(c)(3) registered non-profit in partnership with the University of Washington (UW) that shares free or low-cost broadband access in higher-need areas throughout the city, making use of existing UW and city network infrastructure such as buildings and fiber-optic cables to extend coverage to more people.
 
