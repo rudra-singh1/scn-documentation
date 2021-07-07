@@ -1,5 +1,5 @@
 ---
-title: Code of Conduct (todo)
+title: Code of Conduct
 parent: Community
 nav_order: 2
 ---
