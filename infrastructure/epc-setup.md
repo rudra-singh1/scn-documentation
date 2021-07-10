@@ -20,14 +20,16 @@ The EPC provides Control plane functions, such as subscriber and mobile manageme
 
 ## II. CoLTE Installation
 Ensure all Ubuntu packages are up-to-date:
-```
+
+```bash
 $ sudo apt update && sudo apt -y dist-upgrade
 ```
 
 ### A. Option 1: Install CoLTE from package repositories
 
 CoLTE can be installed from its debian repository, or built from source. Building from source is fairly simple, and ensures that the most up-to-date version is installed. The following repositories include packages for CoLTE dependencies open5gs and haulage. More information about CoLTE can be found at https://github.com/uw-ictd/colte:
-```
+
+```bash
 $ echo "deb http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
 $ sudo wget -O /etc/apt/trusted.gpg.d/colte.gpg http://colte.cs.washington.edu/keyring.gpg
 $ sudo add-apt-repository ppa:open5gs/latest
@@ -37,7 +39,8 @@ $ sudo apt -y install colte
 
 ### B. Option 2: Build CoLTE from source
 Install build dependencies. Note: the version of NodeJS in the Ubuntu repositories is out of date. These commands add repositories directly provided by Node:
-```
+
+```bash
 $ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -s
 $ sudo apt install build-essential default-mysql-client default-mysql-server nodejs curl
 $ echo "deb http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
@@ -45,14 +48,18 @@ $ sudo wget -O /etc/apt/trusted.gpg.d/colte.gpg http://colte.cs.washington.edu/k
 $ sudo add-apt-repository ppa:open5gs/latest
 $ sudo apt update
 ```
+
 Download CoLTE from its git repository, and build locally:
-```
+
+```bash
 $ git clone https://github.com/uw-ictd/colte
 $ cd colte
 $ make
 ```
+
 If all goes well, a package will be installed into the BUILD subdirectory. Install with apt:
-```
+
+```bash
 $ sudo apt install ./BUILD/colte_<VERSION>.deb
 ```
 
@@ -62,7 +69,8 @@ $ sudo apt install ./BUILD/colte_<VERSION>.deb
 This requires an EPC machine with 2 or more ethernet ports (here named enp1s0 and enp4s0). The upstream interface receives an IP address via DHCP as usual from the upstream router, which passes its traffic to and from the Internet. The downstream interface connecting to the eNB is assigned two IP addresses and subnets, which are configured statically.
 
 For Ubuntu 18.04, create a file in the `/etc/netplan` directory named `99-colte-config.yaml`, and add the following lines, substituting the correct interface names and subnets for your configuration:
-```
+
+```yaml
 # CoLTE network configuration
 network:
   ethernets:
@@ -75,7 +83,8 @@ network:
         - 192.168.151.2/24
   version: 2
 ```
-Note: Netplan will apply configuration files in this directory in the numerical order of the filename prefix (ie., 00-*, 01-*, etc.). Any interfaces configured in an earlier file will be overwritten by higher-numbered configuration files, so we create a file with the prefix 99-* in order to supersede all other configuration files.
+
+Note: Netplan will apply configuration files in this directory in the numerical order of the filename prefix (ie., 00-\*, 01-\*, etc.). Any interfaces configured in an earlier file will be overwritten by higher-numbered configuration files, so we create a file with the prefix 99-\* in order to supersede all other configuration files.
 
 To enter the appropriate values into the configuration, you will need to find out the names of your ethernet interfaces. Use the command “ip a” on the command line. A list of network interfaces will appear in the terminal. Find the ones corresponding to your ethernet ports (their names usually start with “eth,” “enp,” or “enx”). For the recommended configuration shown, **we require an EPC machine with 2 or more ethernet ports**. The first ethernet interface, enp1s0, is used as the WAN port, which accesses upstream IP networks and the Internet. The last ethernet interface, enp4s0, will connect to the eNodeB, and out to our LTE network. (Our mini-PC model has 4 ethernet ports.)
 
@@ -83,7 +92,8 @@ Below we also provide an alternate configuration in case you do not yet have a m
 
 ### B. NOT Recommended for deployment
 If you don’t yet have a machine with 2 ethernet ports or a USB to ethernet adapter dongle, you can temporarily use a machine with a single ethernet port along with a simple switch or router. If using a simple switch, you can follow the same instructions but connect all three of the EPC, eNB, and upstream Internet router to the switch. If using a router, you may instead need to configure the router to assign 2 private static IPs to each of the EPC (i.e. `192.168.150.2`, `192.168.151.2`) and eNB (i.e. `192.168.150.1`, `192.168.151.1`), such that it will correctly NAT upstream traffic and also route local traffic between the EPC and eNB.
-```
+
+```yaml
 # Network config EPC with single ethernet card
 # A switch is used to connect all devices
 network:
@@ -95,8 +105,10 @@ network:
         - 192.168.151.2/24
   version: 2
 ```
+
 Once this file (or your router configuration) has been modified, restart the network daemon to apply the configuration changes:
-```
+
+```bash
 $ sudo netplan try
 $ sudo netplan apply
 ```
@@ -106,7 +118,8 @@ If the eNB will be plugged into its own dedicated EPC ethernet port, as in the r
 
 ### A. Using `colteconf`
 CoLTE simplifies LTE network configuration by consolidating relevant configuration files into the directory `/etc/colte`. The primary configuration file is `/etc/colte/config.yml`. Update this file as below:
-```
+
+```yaml
 # REMEMBER TO CALL "sudo colteconf update" AFTER CHANGING THIS FILE!
 
 # basic network settings
@@ -132,34 +145,44 @@ metered: true
 nat: true
 epc: true
 ```
+
 Once this is done, run: 
-```
+
+```bash
 $ sudo colteconf update 
 ```
+
 This will update the configuration and reload services.
 **TODO: list service names**
 
 ### B. Monitoring CoLTE
 Ubuntu’s built-in logging and monitoring services can be used to monitor the CoLTE services:
-```
+
+```bash
 $ sudo journalctl -fu open5gs-mmed.service
 ```
+
 OR
-```
+
+```bash
 $ sudo systemctl status open5gs-mmed.service
 ```
+
 *Tab complete may be able to fill in the service name for systemctl at least*
 
 ## V. 'Persist' CoLTE Configuration
 
 CoLTE configures IPTables rules to make sure packets are routed correctly within the EPC. IPTables rules must be made persistent across reboots with the `iptables-persistent` package:
-```
+
+```bash
 $ sudo apt install iptables-persistent
 ```
+
 Installation of this package will save the current iptables rules to it’s configuration file, `/etc/iptables/rules.v4`.
 
 Note: `iptables-persistent` reads the contents of this file at boot and applies all iptables rules it contains. If you need to update the rules, or re-apply manually, you may use the following commands. This should not be necessary under normal circumstances:
-```
+
+```bash
 $ sudo iptables-save > /etc/iptables/rules.v4
 $ sudo iptables-restore < /etc/iptables/rules.v4
 ```
@@ -191,11 +214,13 @@ To add a new user with a given SIM card, you will need several pieces of informa
     
 To add a single new user in the command line, use the following command format:
 
-`$ sudo coltedb add imsi msisdn ip key opc [apn]`
+```bash
+$ sudo coltedb add imsi msisdn ip key opc [apn]
+```
 
 For example, a line with some dummy values inserted could look like this (no APN):
 
-```
+```bash
 $ sudo coltedb add 460660003400030 30 192.168.151.30 0x00112233445566778899AABBCCDDEEFF 0x000102030405060708090A0B0C0D0E0F
 ```
 
@@ -210,6 +235,7 @@ Here’s an example of 3 lines from such a user_sims.txt file (with dummy SIM in
 460660003400034 34 192.168.151.34 0x00112233445566778899AABBCCDDEEFF 0x000102030405060708090A0B0C0D0E0F ims
 ```
 Then, to add them all at once to the database, you would run: 
-```
+
+```bash
 $ sudo bulk_add.sh user_sims.txt
 ```

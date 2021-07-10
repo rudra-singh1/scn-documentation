@@ -20,6 +20,8 @@ To edit this documentation you should:
 3. Submit a pull request
 4. Wait for someone to review and accept the request
 
+**PRO TIP**{: .label .label-green } If you want to quickly edit a page, you can scroll to the bottom of the page and click "Edit this page on GitHub". Clicking the pencil button on that page  will automatically send you to your own fork, allow you to make edits, and you can make a pull request from there.
+
 ## Markdown files
 All our documentation is stored in 'Markdown' files so that they can be easily
 modified and changed without heavy technical knowledge.
@@ -42,7 +44,7 @@ in the URL (get-started.html). Everything else is controlled by the stuff inside
 the 'YAML Front Matter' of the markdown file.
 
 Here is the YAML front matter for 'Get Started':
-```
+```yaml
 ---
 title: Get Started
 nav_order: 2
@@ -58,7 +60,7 @@ The 'Learn' page is located in the learn directory as 'learn/index.md'.
 Note that the 'Learn' page is almost the same as a top-level page, except it has children pages.
 
 Here is the YAML front matter for 'Learn'
-```
+```yaml
 ---
 title: Learn
 nav_order: 4
@@ -74,7 +76,7 @@ pages will use to reference this page as their parent.
 An example of a 'children page' would be the 'Wireless Communication' page inside the learn directory as 'learn/wireless-communication.md'.
 
 Here is the YAML front matter for 'Wireless Communication':
-```
+```yaml
 ---
 title: Wireless Communication
 parent: Learn
@@ -85,3 +87,8 @@ nav_order: 1
 - The 'parent' is used to mark the 'Learn' page as a parent, which causes this page to
 appear underneath 'Learn' as a dropdown page.
 - The 'nav_order' is used to enforce that this page occurs as the first page underneath 'Learn'
+
+## Static Files
+
+TODO
+{: .label .label-yellow }
