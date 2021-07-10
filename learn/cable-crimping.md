@@ -1,5 +1,5 @@
 ---
-title: Crimping Ethernet Cables (todo)
+title: Crimping Ethernet Cables
 nav_order: 2
 parent: Learn
 ---
