@@ -22,7 +22,7 @@ The EPC provides Control plane functions, such as subscriber and mobile manageme
 Ensure all Ubuntu packages are up-to-date:
 
 ```bash
-$ sudo apt update && sudo apt -y dist-upgrade
+sudo apt update && sudo apt -y dist-upgrade
 ```
 
 ### A. Option 1: Install CoLTE from package repositories
@@ -30,37 +30,39 @@ $ sudo apt update && sudo apt -y dist-upgrade
 CoLTE can be installed from its debian repository, or built from source. Building from source is fairly simple, and ensures that the most up-to-date version is installed. The following repositories include packages for CoLTE dependencies open5gs and haulage. More information about CoLTE can be found at https://github.com/uw-ictd/colte:
 
 ```bash
-$ echo "deb http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
-$ sudo wget -O /etc/apt/trusted.gpg.d/colte.gpg http://colte.cs.washington.edu/keyring.gpg
-$ sudo add-apt-repository ppa:open5gs/latest
-$ sudo apt update
-$ sudo apt -y install colte
+echo "deb [signed-by=/usr/share/keyrings/colte-archive-keyring.gpg] http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
+sudo wget -O /usr/share/keyrings/colte-archive-keyring.gpg http://colte.cs.washington.edu/colte-archive-keyring.gpg
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:open5gs/latest
+sudo apt update
+sudo apt -y install colte
 ```
 
 ### B. Option 2: Build CoLTE from source
 Install build dependencies. Note: the version of NodeJS in the Ubuntu repositories is out of date. These commands add repositories directly provided by Node:
 
 ```bash
-$ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -s
-$ sudo apt install build-essential default-mysql-client default-mysql-server nodejs curl
-$ echo "deb http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
-$ sudo wget -O /etc/apt/trusted.gpg.d/colte.gpg http://colte.cs.washington.edu/keyring.gpg
-$ sudo add-apt-repository ppa:open5gs/latest
-$ sudo apt update
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -s
+sudo apt install build-essential default-mysql-client default-mysql-server nodejs curl
+echo "deb [signed-by=/usr/share/keyrings/colte-archive-keyring.gpg] http://colte.cs.washington.edu $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/colte.list
+sudo wget -O /usr/share/keyrings/colte-archive-keyring.gpg http://colte.cs.washington.edu/colte-archive-keyring.gpg
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:open5gs/latest
+sudo apt update
 ```
 
 Download CoLTE from its git repository, and build locally:
 
 ```bash
-$ git clone https://github.com/uw-ictd/colte
-$ cd colte
-$ make
+git clone https://github.com/uw-ictd/colte
+cd colte
+make
 ```
 
 If all goes well, a package will be installed into the BUILD subdirectory. Install with apt:
 
 ```bash
-$ sudo apt install ./BUILD/colte_<VERSION>.deb
+sudo apt install ./BUILD/colte_<VERSION>.deb
 ```
 
 ## III. Network Interface Configuration
@@ -109,8 +111,8 @@ network:
 Once this file (or your router configuration) has been modified, restart the network daemon to apply the configuration changes:
 
 ```bash
-$ sudo netplan try
-$ sudo netplan apply
+sudo netplan try
+sudo netplan apply
 ```
 If the eNB will be plugged into its own dedicated EPC ethernet port, as in the recommended configuration above, you may need to connect that EPC ethernet port to something (e.g. the eNB, a switch, another machine) via an ethernet cable to wake the interface up (so that it becomes active and takes on the assigned IP addresses). The open5gs MME needs to bind its S1 interface to one of those IP addresses (in this case `192.168.0.2`). Until those IPs exist on your machine, the MME will continually throw errors if you try to run it.
 
@@ -175,7 +177,7 @@ $ sudo systemctl status open5gs-mmed.service
 CoLTE configures IPTables rules to make sure packets are routed correctly within the EPC. IPTables rules must be made persistent across reboots with the `iptables-persistent` package:
 
 ```bash
-$ sudo apt install iptables-persistent
+sudo apt install iptables-persistent
 ```
 
 Installation of this package will save the current iptables rules to it’s configuration file, `/etc/iptables/rules.v4`.
@@ -183,8 +185,8 @@ Installation of this package will save the current iptables rules to it’s conf
 Note: `iptables-persistent` reads the contents of this file at boot and applies all iptables rules it contains. If you need to update the rules, or re-apply manually, you may use the following commands. This should not be necessary under normal circumstances:
 
 ```bash
-$ sudo iptables-save > /etc/iptables/rules.v4
-$ sudo iptables-restore < /etc/iptables/rules.v4
+sudo iptables-save > /etc/iptables/rules.v4
+sudo iptables-restore < /etc/iptables/rules.v4
 ```
 
 ## VI. User Administration and Management
@@ -215,13 +217,13 @@ To add a new user with a given SIM card, you will need several pieces of informa
 To add a single new user in the command line, use the following command format:
 
 ```bash
-$ sudo coltedb add imsi msisdn ip key opc [apn]
+sudo coltedb add imsi msisdn ip key opc [apn]
 ```
 
 For example, a line with some dummy values inserted could look like this (no APN):
 
 ```bash
-$ sudo coltedb add 460660003400030 30 192.168.151.30 0x00112233445566778899AABBCCDDEEFF 0x000102030405060708090A0B0C0D0E0F
+sudo coltedb add 460660003400030 30 192.168.151.30 0x00112233445566778899AABBCCDDEEFF 0x000102030405060708090A0B0C0D0E0F
 ```
 
 ### B. Bulk add using a script
@@ -237,5 +239,5 @@ Here’s an example of 3 lines from such a user_sims.txt file (with dummy SIM in
 Then, to add them all at once to the database, you would run: 
 
 ```bash
-$ sudo bulk_add.sh user_sims.txt
+sudo bulk_add.sh user_sims.txt
 ```
