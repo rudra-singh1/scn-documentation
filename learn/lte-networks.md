@@ -9,7 +9,7 @@ Our network uses a 4G LTE network architecture. Understanding everything is a hu
 
 Consider exploring all of these links as they all complement each other well!
 
-# Helpful videos
+## Helpful videos
 
 - [AT&T Archives Video: AMPS](https://www.youtube.com/watch?v=d6X_1PcR_gs)
 	- Old video from 1978 about an older version of cell networks (AMPS)
@@ -21,8 +21,10 @@ Consider exploring all of these links as they all complement each other well!
 	- Very good visual for the entire system of how cell phones work today
 	- Has 3d animation so it's easier to understand conceptually
 	- Doesn't go over LTE architecture specifically
+- [Driving Factors of LTE Architecture](https://youtu.be/aGRTBA1tYRo)
+	- Gain more understanding of the context around LTE architecture
 
-# Helpful articles
+## Helpful articles
 
 - [YaleBTS LTE Concepts](https://yatebts.com/documentation/concepts/lte-concepts/)
 	- Explains basically ALL the parts of the LTE architecture
