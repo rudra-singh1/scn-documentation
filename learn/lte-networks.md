@@ -21,6 +21,8 @@ Consider exploring all of these links as they all complement each other well!
 	- Very good visual for the entire system of how cell phones work today
 	- Has 3d animation so it's easier to understand conceptually
 	- Doesn't go over LTE architecture specifically
+- [Driving Factors of LTE Architecture](https://youtu.be/aGRTBA1tYRo)
+	- Gain more understanding of the context around LTE architecture
 
 # Helpful articles
 
