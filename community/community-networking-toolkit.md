@@ -10,6 +10,7 @@ This is a toolkit/resource guide for anyone interested in starting up their own 
 ## Ethernet Crimping
 Ethernet crimping is an important skill for network site installations. The length of an ethernet cable connection is only truly known once you're on site so it is useful to be able to quickly cut ethernet cable to the desired length and crimp it.
 
+* [Our Guide to Crimping](http://localhost:4000/learn/cable-crimping.html)
 * [Workshop Slides](https://docs.google.com/presentation/d/1HG5OcJysTicr_JHOlsKTB2ewWBVexrQDYv0Xn3_1hYA/edit?usp=sharing)
 * [Crimping Video](https://www.youtube.com/watch?v=WvP0D0jiyLg)
 * [Cable Testing Video (first 7 min only for basics)](https://www.youtube.com/watch?v=3tHvOLBp2zM)
