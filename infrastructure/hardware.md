@@ -59,7 +59,7 @@ Outdoor router of choice for NYC Mesh, so it has been tried and tested. Good bal
 More info [here](https://mikrotik.com/product/rbomnitikpg_5hacd)
 
 ### Home WiFi Router
-![TP-Link Archer A5 Router Marketing Image](https://static.tp-link.com/Archer_C50_EU_5.0_01_normal_1550719169452w.jpg)
+![TP-Link Archer A5 Router Marketing Image](https://m.media-amazon.com/images/I/51R2a9p-vNL._AC_SS450_.jpg)
 
 TP-Link Archer A5 Router
 
