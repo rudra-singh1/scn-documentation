@@ -17,4 +17,5 @@ nav_order: 4
 - Oromo Cultural Center
 - Seattle Public Schools
 - Tacoma Cooperative Network
+- Tacoma Public Library
 - University of Washington
