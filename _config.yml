@@ -29,8 +29,8 @@ github_username:  Local-Connectivity-Lab
 
 # Build settings
 remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

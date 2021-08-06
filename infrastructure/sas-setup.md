@@ -60,15 +60,11 @@ Our test setup in the lab includes:
 
 ### C. Example Configuration
 An example configuration for this setup is shown below.
-<center>
 
-![](https://i.imgur.com/9G0bymT.png)
-
-</center>
-
+![Google SAS Configuration Screen](https://i.imgur.com/9G0bymT.png)
 
 *The configuration screen is a right-hand sidebar next to the map view, hence the unwieldy aspect ratio.*
-    
+
 Explanation of parameters:
 1. CBSD Category (A or B):
     * Defined by rules in Section I.C above
