@@ -35,10 +35,15 @@ use but are not satisfied with for many reasons, which is why we are developing 
 
 ## Site Planning
 
+### Google Earth
+We primarily use the Google Earth Pro [desktop application](https://www.google.com/earth/versions/#earth-pro) to do a rough line-of-sight evaluation. We perform what is called a "viewshed analysis" that allows us to determine what is visible from a specific point on Earth (e.g. a rooftop).
+
 ### Ubiquiti Line of Sight
 A [web-based line of sight tool](https://link.ui.com/) provided by Ubiquiti that contains helpful altitude data and diagrams.
 A drawback is that it is specialized to provide data for Ubiquiti devices only.
 
+
+## Other resources
 ### Facebook ISP Toolbox Line of Sight
 A [web-based line of sight tool](https://www.facebook.com/isptoolbox/line-of-sight-check/) provided by Facebook Connectivity that utilizes public LiDAR data. Unfortunately LiDAR data for the Seattle area is not present yet, although there is data for some areas in Tacoma.
 
