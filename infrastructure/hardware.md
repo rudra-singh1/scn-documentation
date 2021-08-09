@@ -10,7 +10,6 @@ This page will be an overview of some of the core pieces of hardware that we use
 
 This page is in development, please contact us at lcl@seattlecommunitynetwork.org if you would like to learn more about the hardware we use.
 
-<<<<<<< HEAD
 **TODO**{: .label .label-yellow}
 =======
 ## Network Site Equipment
@@ -77,4 +76,3 @@ from vendors that send incorrect models of phones that don't support CBRS band a
 Test your phones before distributing them!
 
 Here is [one spot](https://www.backmarket.com/search?q=pixel%204&ga_search=pixel%204) to purchase refurbished phones.
->>>>>>> 26b1a70... Fix TP-Link Archer A5 image link
