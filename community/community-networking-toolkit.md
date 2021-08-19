@@ -7,6 +7,9 @@ parent: Community
 
 This is a toolkit/resource guide for anyone interested in starting up their own community network.
 
+## Recommended Deployment Kit
+Here is a [spreadsheet](https://docs.google.com/spreadsheets/d/1-f0neQ0XBOndDnIj8ft-SQVXU3Dub-5iQwYS_odf-MQ/edit#gid=0) containing a bunch of tools and equipment that you should bring to network deployments. This was created by Esther Jang who has a lot of practical experience deploying sites. This spreadsheet is color-coded into different categories based on how important they are to have!
+
 ## Ethernet Crimping
 Ethernet crimping is an important skill for network site installations. The length of an ethernet cable connection is only truly known once you're on site so it is useful to be able to quickly cut ethernet cable to the desired length and crimp it.
 
