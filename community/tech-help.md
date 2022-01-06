@@ -32,7 +32,7 @@ Please check our available hours and sign up for an appointment slot using the c
 However, you may also drop in during our scheduled calendar hours without an appointment.
 
 * [Our Help Desk Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_grfefg3uklclsha3h8mhci8sdc@group.calendar.google.com&ctz=America/Los_Angeles): You can sign up for an appointment slot for any staffed volunteer hours indicated on the calendar. 
-* Phone Number (Voicemail-only except during staffed Community Tech Help hours): (253) 655-7221 
+* Phone Number (Voicemail-only except during staffed Community Tech Help hours): `(253) 655-7221`
     * You may also send text messages to this number, which will be checked during staffed hours.
     * Inquiries about getting connected to our Internet service can also be sent here. 
 * Email address for general Community Tech Support: [techsupport@seattlecommunitynetwork.org](mailto:techsupport@seattlecommunitynetwork.org)
