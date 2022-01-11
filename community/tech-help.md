@@ -6,22 +6,21 @@ nav_order: 4
 
 # Community Tech Help
 
-There are several ways to get community-based tech support from the SCN community.
+There are several ways to get community-based tech support from the SCN community, such as the [Help Desk](https://calendar.google.com/calendar/u/0/embed?src=c_grfefg3uklclsha3h8mhci8sdc@group.calendar.google.com&ctz=America/Los_Angeles).
 You can use any of these methods to request Internet service from us, request general technology or computer help, or contact us about any other topic.  
 
 ## Join our Slack!
 
 The FASTEST way to get support will be to join the `#support` channel on our [Slack](https://seattlecommunitynet.slack.com). 
-Slack is an instant messaging platform (very similar to Discord) that we use to stay in touch, organize our different project teams, and update everyone on last minute things.
+Slack is an instant messaging platform (very similar to Discord) that we use to organize.
 
 ### Follow these steps to join Slack:
 
 1. [Create a Slack account](https://slack.com/get-started#/create) if you don't have one already
 2. [Install Slack](https://slack.com/downloads/) on your computer and phone to always stay up-to-date.
 3. [Join our Slack workspace](https://join.slack.com/t/seattlecommunitynet/shared_invite/zt-kdm2ow00-QXhuqWHpFLTAiLmJN4IIgQ)
-4. Click "Browse channels" and click "Join" on the `#support` channel. You can also join any other channels that look interesting! Describe your question or problem in as much detail as you can, and someone from the community will most likely respond within a few hours.
-5. If you would like to get to know the community, introduce yourself in the `#introductions` channel! Some things you might want to include are how you heard about SCN and why you are interested in it!
-
+4. Click "Browse channels" and click "Join" on the `#support` channel. Describe your question or problem in as much detail as you can, and someone from the community will most likely respond within a few hours.
+5. If you would like to get to know the community, introduce yourself in the `#introductions` channel! How did you hear about SCN and why are you interested?
 (More complete instructions can be found [here](https://docs.seattlecommunitynetwork.org/get-started)).
 
 ## Community-Run Help Desk 
