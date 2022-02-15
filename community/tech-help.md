@@ -25,8 +25,12 @@ Slack is an instant messaging platform (very similar to Discord) that we use to 
 
 ## Community-Run Help Desk 
 
-In early 2022 we will begin staffing a primarily virtual, volunteer-based community technology help desk. We hope to gain access to a physical space for this soon, but do not have that set up yet.
+The Seattle Community Network organizes a community-run tech help desk supported by the Black Brilliance Research Project's (BBR's) Digital Stewards Program and the Filipino Community of Seattle (FCS). Our current in-person help desk hours are on *Fridays at 3-5 pm* starting on 2/18/2022, located in the *Filipino Community Village Integrated Learning Center (ILC)*.
 
+Filipino Community Village Integrated Learning Center address:
+5727 37th Ave S, Seattle, WA 98118
+
+Our help desk is best-effort and mainly volunteer-based, so our virtual hours availability may be highly variable. 
 Please check our available hours and sign up for an appointment slot using the calendar link below if you can (or contact us another way if that doesn't work), as it helps the volunteers plan for our time.
 However, you may also drop in during our scheduled calendar hours without an appointment.
 
