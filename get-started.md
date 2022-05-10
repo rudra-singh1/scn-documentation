@@ -15,31 +15,20 @@ community, but ultimately it's up to you to meet people and stay connected!
 
 **PRO TIP**{: .label .label-green} Do everything on this page! Our community is spread out in a lot of different places, so doing everything is the best way to get connected.
 
-## Join our Slack!
-If you've never heard of Slack before, it's an instant messaging platform that we use to stay in touch
+## Join our Discord!
+Discord is a messaging platform that we use to stay in touch
 with each other, organize our different teams, and update everyone on last minute things.
 
 This is a MUST do if you don't want to get left out!
 
-### Follow these steps to get the best Slack community experience
+### Follow these steps to join our Discord server:
 
-1. [Create a Slack account](https://slack.com/get-started#/create) if you don't have one already
-2. [Install Slack](https://slack.com/downloads/) on your computer and phone to always stay up-to-date.
-3. [Join our Slack workspace](https://join.slack.com/t/seattlecommunitynet/shared_invite/zt-kdm2ow00-QXhuqWHpFLTAiLmJN4IIgQ)
-4. Important! Join _all_ of the channels that you might be interested in. By default you will only have access to a few, but there are actually a dozen hidden channels that conversations are happening in!
-	- To join channels on the computer application, go to the left-hand sidebar and scroll down until you see "Add channels"
-	- Click "Browse channels" and click "Join" on any channel that interests you. Repeat this step to add more channels.
-5. Introduce yourself in the `#introductions` channel! Some things you might want to include are how you heard about SCN and what got you interested in it!
-
-**PRO TIP**{: .label .label-green } Add as many channels as possible! You can always leave a channel or put it on mute later.
+1. Click the [invite link](https://discord.gg/sZkK5RpeCE) to enter the Discord server.
+2. Introduce yourself on the `#introductions` channel and friend request one of the moderators so they can chat with you (you can write `@moderators` in your message to get their attention). They will need to add a role for you as a "member" so you can stay on the server before you log out, otherwise you will have to be invited and join again.
+3. Install Discord on your [computer](https://discord.com/download), [Android](https://play.google.com/store/apps/details?id=com.discord&hl=en_US&gl=US), or [iOS](https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746) device to always stay up-to-date.
 
 ## Chat with someone!
 The best way to get involved with the network is to find someone that can direct you!
-
-This could look like...
-- joining a channel and asking for an update on what's going on
-- chatting with a [team leader]( {{ "community/teams.html" | absolute_url }} ) (over Zoom or Slack) about how you might be able to help
-- attending a virtual/in-person meeting (e.g. monthly community meeting, regular team meeting, etc.)
 
 ## Subscribe to our Google calendar!
 On our Google calendar we post regular occurring meetings and any impromptu events like social events, emergency repairs, site visits, etc.
