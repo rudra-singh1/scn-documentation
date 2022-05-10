@@ -9,18 +9,16 @@ nav_order: 4
 There are several ways to get community-based tech support from the SCN community, such as the [Help Desk](https://calendar.google.com/calendar/u/0/embed?src=c_grfefg3uklclsha3h8mhci8sdc@group.calendar.google.com&ctz=America/Los_Angeles).
 You can use any of these methods to request Internet service from us, request general technology or computer help, or contact us about any other topic.  
 
-## Join our Slack!
+## Join our Discord!
 
-The FASTEST way to get support will be to join the `#support` channel on our [Slack](https://seattlecommunitynet.slack.com). 
-Slack is an instant messaging platform (very similar to Discord) that we use to organize.
+The FASTEST way to get support will be to join the `#support` channel on our [Discord](https://discord.gg/sZkK5RpeCE), a messaging platform that we use to organize.
 
-### Follow these steps to join Slack:
+### Follow these steps to join Discord:
 
-1. [Create a Slack account](https://slack.com/get-started#/create) if you don't have one already
-2. [Install Slack](https://slack.com/downloads/) on your computer and phone to always stay up-to-date.
-3. [Join our Slack workspace](https://join.slack.com/t/seattlecommunitynet/shared_invite/zt-kdm2ow00-QXhuqWHpFLTAiLmJN4IIgQ)
-4. Click "Browse channels" and click "Join" on the `#support` channel. Describe your question or problem in as much detail as you can, and someone from the community will most likely respond within a few hours.
-5. If you would like to get to know the community, introduce yourself in the `#introductions` channel! How did you hear about SCN and why are you interested?
+1. Join our [Discord server](https://discord.gg/sZkK5RpeCE) via the invite link. You will need to [log in](https://discord.com/login) or create an account to join, and a moderator will need to assign you a role before you are allowed to join permanently.
+2. Install Discord for your [computer](https://discord.com/download), [Android](https://play.google.com/store/apps/details?id=com.discord&hl=en_US&gl=US), or [iOS](https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746) device to stay up-to-date on conversations.
+3. When posting to the #support channel, describe your question or problem in as much detail as you can. Someone from the community will most likely respond within a few hours.
+4. If you would like to get to know the community, introduce yourself in the `#introductions` channel! How did you hear about SCN and why are you interested?
 (More complete instructions can be found [here](https://docs.seattlecommunitynetwork.org/get-started)).
 
 ## Community-Run Help Desk 
@@ -42,14 +40,7 @@ However, you may also drop in during our scheduled calendar hours without an app
 * Email address for SCN Internet service-related support: [help@seattlecommunitynetwork.org](mailto:help@seattlecommunitynetwork.org)
 
 
-## Submit a Support Ticket
-
-Our volunteers use the `osticket` open source ticketing system to help us manage support requests.
-The osticket interface is available in a variety of languages. 
-You can open a ticket directly in our [osticket instance](https://support.seattlecommunitynetwork.org), which will be forwarded as an email to the tech help email addresses.
-The ticket number and record will be sent directly to your email address so you can check on its status in the future, so please make sure to check your spam folder if you don't receive it.
-
 ## Documentation
 
 As always, please do not hesitate to consult our [docs](https://docs.seattlecommunitynetwork.org) for any information, or submit an issue on the docs site [github](https://github.com/Local-Connectivity-Lab/scn-documentation) if there is information missing that you would like to see.
-Also feel free to message the Slack for the same purpose.
+Also feel free to message the Discord for the same purpose.

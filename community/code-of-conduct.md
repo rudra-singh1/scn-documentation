@@ -53,7 +53,7 @@ The following types of behavior are unacceptable at SCN, both online and in-pers
 
 ## Reporting
 
-Please report code of conduct violations either to the event organizer, by emailing lcl@eattlecommunitynetwork.org or by alerting moderators on Slack with the @moderators group tag.
+Please report code of conduct violations either to the event organizer, by emailing lcl@eattlecommunitynetwork.org or by alerting moderators on Discord with the @moderators group tag.
 
 All of our moderators are volunteers, and will response with their best effort. However, if you provide your name, or contact info we promise to respond within two business days.
 
@@ -87,7 +87,7 @@ Moderators will follow these Community Impact Guidelines in determining the cons
 
 Community Impact: Unwelcoming behavior. Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
-Consequence: A private, written warning from moderators, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public or private apology may be requested in the venue where the behavior took place, for example on Slack or at the event.
+Consequence: A private, written warning from moderators, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public or private apology may be requested in the venue where the behavior took place, for example on Discord or at the event.
 
 ### Warning
 
@@ -109,7 +109,7 @@ Consequence: A permanent ban from any sort of participation, or public interacti
 
 ## Discussion
 
-If you have questions about any aspect of the code of conduct, or want to propose amending it, please contact the @moderators group, or drop in to the public #governance channel on Slack.
+If you have questions about any aspect of the code of conduct, or want to propose amending it, please contact the @moderators group, or drop in to the public #governance channel on Discord.
 
 ## Attribution
 
