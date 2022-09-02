@@ -1,7 +1,7 @@
 ---
 title: Mission, Vision, Values
 parent: Community
-nav_order: 1
+nav_order: 2
 ---
 
 # Mission, Vision, and Values

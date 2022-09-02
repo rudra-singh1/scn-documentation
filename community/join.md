@@ -1,7 +1,7 @@
 ---
 title: Join Us
-nav_order: 1
 parent: Community
+nav_order: 1
 ---
 
 # Join Us

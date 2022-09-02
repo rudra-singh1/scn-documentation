@@ -1,7 +1,7 @@
 ---
 title: Join a Team
 parent: Community
-nav_order: 3
+nav_order: 4
 ---
 
 # Join a Team

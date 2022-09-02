@@ -1,7 +1,7 @@
 ---
 title: Code of Conduct
 parent: Community
-nav_order: 2
+nav_order: 3
 ---
 
 # Code of Conduct
