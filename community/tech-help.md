@@ -40,9 +40,9 @@ However, you may also drop in during our scheduled calendar hours without an app
 ### Help Desk Volunteers
 
 We are actively recruiting more volunteers to help us run the help desk virtually, whenever and wherever that you are available. 
-Join our team by simply signup in this [interest form](https://forms.gle/iqBYKmjkTYa4gFK98), we need you! 
+Join our team by simply signing up on this [interest form](https://forms.gle/iqBYKmjkTYa4gFK98), we need you! 
 
-Please let us know if you have additional questions or concerns in the `#support` channel on our [Slack](https://seattlecommunitynet.slack.com). 
+Please let us know if you have additional questions or concerns in the `#support` channel on our [Discord](https://discord.gg/FN3DDjtAHg). 
 
 ## Submit a Support Ticket
 
