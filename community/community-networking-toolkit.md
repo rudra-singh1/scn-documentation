@@ -1,6 +1,7 @@
 ---
 title: Community Networking Toolkit
 parent: Community
+nav_order: 7
 ---
 
 # Community Networking Toolkit

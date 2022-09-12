@@ -1,19 +1,15 @@
 ---
-title: Get Started
-nav_order: 2
+title: Join Us
+parent: Community
+nav_order: 1
 ---
 
-# Get Started
-Lost? You're in the right place!
-
+# Join Us
 Seattle Community Network has a place for **everyone**. Whether you'd like to join
 to get free Internet, get involved to help out your community, learn some skills
 so that you can get a job, or all of the above!
 
-This document serves to point you to a few places where you can integrate yourself into our
-community, but ultimately it's up to you to meet people and stay connected!
-
-**PRO TIP**{: .label .label-green} Do everything on this page! Our community is spread out in a lot of different places, so doing everything is the best way to get connected.
+**PRO TIP**{: .label .label-green} Do everything on this page! Our community is spread out in a lot of different places, so doing everything is the best way to make sure you don't miss out.
 
 ## Join our Discord!
 Discord is a messaging platform that we use to stay in touch
@@ -44,13 +40,3 @@ Our social media team makes posts about upcoming meetings, social events, and th
 make educational posts!
 
 Don't miss out and follow us on [Instagram](https://instagram.com/seattlecommnet), [Facebook](https://facebook.com/seattlecommnet), and [Twitter](https://twitter.com/seattlecommnet).
-
-## Browse our websites!
-It's also worth dedicating some time to browse all the different sections of [this website that you're on]({{ absolute_url }}).
-- [FAQ]({{ "faq.html" | absolute_url}}) to get the answers to some common questions
-- [Community]({{ "community/" | absolute_url }}) to read more about our community, rules, and what we're up to
-- [Learn]({{ "learn/" | absolute_url }}) to gain some new skills that you can use to help out with our networks
-- [Infrastructure]({{ "infrastructure/" | absolute_url }}) to get the details on how our networks work behind the scenes
-
-Also check out our [main website](https://seattlecommunitynetwork.org/) to learn more about us too.
-
