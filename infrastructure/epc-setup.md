@@ -1,9 +1,9 @@
 ---
-title: CoLTE/EPC Setup
+title: Step 1: LTE Core Network Setup
 parent: Infrastructure
 ---
 
-# CoLTE/EPC Setup
+# Step 1: CoLTE/EPC (LTE Core Network) Setup
 
 Our core networks use the [CoLTE project](https://github.com/uw-ictd/colte) maintained by the [UW ICTD Lab](https://ictd.cs.washington.edu/).
 

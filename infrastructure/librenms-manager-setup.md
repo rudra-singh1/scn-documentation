@@ -1,5 +1,5 @@
 ---
-title: eNodeB and SAS Setup
+title: Network Monitoring 1: LibreNMS Network Manager Configuration
 parent: Infrastructure
 ---
 

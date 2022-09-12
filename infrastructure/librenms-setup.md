@@ -1,9 +1,9 @@
 ---
-title: LibreNMS Agent Configuration
+title: Network Monitoring 2: LibreNMS Agent Configuration
 parent: Infrastructure
 ---
 
-# Librenms Agent Configuration
+# LibreNMS Agent Configuration
 
 ## Adding a New Node to LibreNMS
 

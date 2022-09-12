@@ -1,9 +1,9 @@
 ---
-title: eNodeB and SAS Setup
+title: Step 2: eNodeB and SAS Setup
 parent: Infrastructure
 ---
 
-# eNodeB and SAS Setup
+# Step 2: eNodeB and SAS Setup
 
 ## Introduction
 Despite CBRS being a relatively open frequency band, the processes for spectrum access are still somewhat opaque and require significant capital investment and/or ISP-level resources to set up. To clarify this process, here’s a step by step walkthrough tutorial of the setup of a Baicells eNodeB (eNB) base station running in the Citizen’s Broadband Radio Service (CBRS) spectrum band (or band 48).

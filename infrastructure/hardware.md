@@ -1,5 +1,5 @@
 ---
-title: Our Hardware
+title: Hardware Overview
 parent: Infrastructure
 nav_order: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: Our Software
+title: Software Overview
 parent: Infrastructure
 nav_order: 2
 ---
