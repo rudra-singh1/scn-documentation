@@ -1,5 +1,5 @@
 ---
-title: Step 1: LTE Core Network Setup
+title: Step 1. LTE Core Network Setup
 parent: Infrastructure
 ---
 

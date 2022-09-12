@@ -1,5 +1,5 @@
 ---
-title: Network Monitoring 2: LibreNMS Agent Configuration
+title: Network Monitoring 2. LibreNMS Agent Configuration
 parent: Infrastructure
 ---
 

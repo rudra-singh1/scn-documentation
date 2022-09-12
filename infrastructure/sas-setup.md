@@ -1,5 +1,5 @@
 ---
-title: Step 2: eNodeB and SAS Setup
+title: Step 2. eNodeB and SAS Setup
 parent: Infrastructure
 ---
 
