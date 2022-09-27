@@ -19,7 +19,7 @@ This is a MUST do if you don't want to get left out!
 
 ### Follow these steps to join our Discord server:
 
-1. Click the [invite link](https://discord.gg/sZkK5RpeCE) to enter the Discord server.
+1. Click the [invite link](https://discord.gg/gn4DKF83bP) to enter the Discord server.
 2. Introduce yourself on the `#introductions` channel and friend request one of the moderators so they can chat with you (you can write `@moderators` in your message to get their attention). They will need to add a role for you as a "member" so you can stay on the server before you log out, otherwise you will have to be invited and join again.
 3. Install Discord on your [computer](https://discord.com/download), [Android](https://play.google.com/store/apps/details?id=com.discord&hl=en_US&gl=US), or [iOS](https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746) device to always stay up-to-date.
 
