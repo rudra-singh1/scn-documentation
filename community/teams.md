@@ -36,7 +36,7 @@ You should join this team if you have experience in or are interested in practic
 - Photography/Videography
 
 ## Web Development
-Our web development team is working on redesigning and developing our new website. Message the [#website](https://discord.gg/sZkK5RpeCE) channel in Discord and contact Melinda Tran to learn more about how you can get involved.
+Our web development team is working on redesigning and developing our new website. Message the [#website](https://discord.gg/sZkK5RpeCE) channel in Discord to learn more about how you can get involved.
 
 You should join this team if you have experience in or are interested in learning any of the following skills/technologies:
 - HTML/CSS
