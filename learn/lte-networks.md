@@ -11,6 +11,8 @@ Consider exploring all of these links as they all complement each other well!
 
 ## Helpful videos
 
+- [How Cell Service Actually Works](https://www.youtube.com/watch?v=0faCad2kKeg)
+	- Broad overview of cellular technologies, from the very basics up to advanced topics, in only 20 minutes
 - [AT&T Archives Video: AMPS](https://www.youtube.com/watch?v=d6X_1PcR_gs)
 	- Old video from 1978 about an older version of cell networks (AMPS)
 	- Very very high quality and gives good background on cellular networks
