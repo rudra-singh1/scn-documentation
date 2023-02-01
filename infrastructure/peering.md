@@ -28,6 +28,6 @@ Seattle Community Network (SCN) is a community network dedicated to providing fa
 
 ### Exchanges
 
-| Exchange                        | City         | ASNs | Routes | Speed |
-| ------------------------------- | ------------ | ---- | ------ | ----- |
-| Seattle Internet Exchange (SIX) | Seattle, WA  | 336  | ~192K  | 10G   |
+| Exchange                        | City         | IPv4           | IPv6             | ASNs | Routes | Speed |
+| ------------------------------- | ------------ | -------------- | ---------------- | ---- | ------ | ----- |
+| Seattle Internet Exchange (SIX) | Seattle, WA  | 206.81.81.150 | 2001:504:16::d49d | 336  | ~192K  | 10G   |
