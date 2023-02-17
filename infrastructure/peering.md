@@ -35,6 +35,6 @@ Seattle Community Network (SCN) is a community network dedicated to providing fa
 ## Peering Data
 
 ASN: 54429  
-Peering Contact: lcl@seattlecommunitynetwork.org  
+Peering Contact: tech@seattlecommunitynetwork.org  
 PeerDB Page: [https://as54429.peeringdb.com](https://as54429.peeringdb.com)  
 As we are a non-profit, please consider providing as many routes as possible, including upstream or other routes.  
