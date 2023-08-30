@@ -36,7 +36,7 @@ However, you may also drop in during our scheduled calendar hours without an app
 * Phone Number (Voicemail-only except during staffed Community Tech Help hours): `(253) 655-7221`
     * You may also send text messages to this number, which will be checked during staffed hours.
     * Inquiries about getting connected to our Internet service can also be sent here. 
-* Email address for general Community Tech Support: [techsupport@seattlecommunitynetwork.org](mailto:techsupport@seattlecommunitynetwork.org)
+* Email address for general Tech Support: [support@seattlecommunitynetwork.org](mailto:support@seattlecommunitynetwork.org)
 * Email address for SCN Internet service-related support: [help@seattlecommunitynetwork.org](mailto:help@seattlecommunitynetwork.org)
 
 ### Help Desk Volunteers
