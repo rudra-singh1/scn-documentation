@@ -1,0 +1,9 @@
+nav:
+  - hardware.md
+  - software.md
+  - peering.md
+  - librenms-manager-setup.md
+  - librenms-setup.md
+  - epc-setup.md
+  - sas-setup.md
+  - proxmox-vaultwarden-deployment.md
