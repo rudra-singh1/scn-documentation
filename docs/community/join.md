@@ -39,3 +39,6 @@ Our social media team makes posts about upcoming meetings, social events, and th
 make educational posts!
 
 Don't miss out and follow us on [Instagram](https://instagram.com/seattlecommnet), [Facebook](https://facebook.com/seattlecommnet), and [Twitter](https://twitter.com/seattlecommnet).
+
+## Visit our Space!
+
