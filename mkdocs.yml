@@ -1,4 +1,4 @@
-site_name: Seattle Community Network Docs Site
+site_name: Seattle Community Network Docs
 theme: readthedocs
 
 plugins:
