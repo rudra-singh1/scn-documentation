@@ -40,7 +40,7 @@ but it also allows you to connect to your own GitHub repo and pull/push.
 [MkDocs](https://www.mkdocs.org/) is pretty simple, just install it through pip then you can run `mkdocs serve` to locally view the website it will generate.
 
 ## Documentation Directory Structure
-Each directory has a `.site` file that declares the order each file/folder in that directory will show up.
+Each directory has a `.pages` file that declares the order each file/folder in that directory will show up.
 Children pages are implicit in the directory structure
 
 ## Static Files
