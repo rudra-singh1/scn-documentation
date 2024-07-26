@@ -17,7 +17,7 @@ The FASTEST way to get support will be to join the `#support` channel on our [Di
 2. Install Discord for your [computer](https://discord.com/download), [Android](https://play.google.com/store/apps/details?id=com.discord&hl=en_US&gl=US), or [iOS](https://apps.apple.com/us/app/discord-chat-talk-hangout/id985746746) device to stay up-to-date on conversations.
 3. When posting to the #support channel, describe your question or problem in as much detail as you can. Someone from the community will most likely respond within a few hours.
 4. If you would like to get to know the community, introduce yourself in the `#introductions` channel! How did you hear about SCN and why are you interested?
-(More complete instructions can be found [here](https://docs.seattlecommunitynetwork.org/get-started)).
+(More complete instructions can be found [here](https://docs.seattlecommunitynetwork.org/join)).
 
 ## Community-Run Help Desk 
 
