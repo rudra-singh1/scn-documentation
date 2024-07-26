@@ -10,4 +10,4 @@ Address: 4534 1/2 University Way NE, Seattle WA 98105
 
 SCN Lab Space Membership is for keyholder access to the space only, and is absolutely not required to volunteer with us. Members can bring in guests at any time. 
 
-Here are the current member [application](https://www.cognitoforms.com/TheSilentTaskForce1/SCNSpaceMembershipApplicationFormAndAgreement) and working draft of [policies](https://docs.google.com/document/d/1jHKDoY01IUAhroEsmL_nff-2he1DZx-30uwkQw4jY6A/edit): 
+Here are the current member [application](https://www.cognitoforms.com/TheSilentTaskForce1/SCNSpaceMembershipApplicationFormAndAgreement) and working draft of [policies](https://docs.google.com/document/d/1jHKDoY01IUAhroEsmL_nff-2he1DZx-30uwkQw4jY6A/edit).
