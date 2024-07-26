@@ -41,4 +41,4 @@ make educational posts!
 Don't miss out and follow us on [Instagram](https://instagram.com/seattlecommnet), [Facebook](https://facebook.com/seattlecommnet), and [Twitter](https://twitter.com/seattlecommnet).
 
 ## Visit our Space!
-
+See the [Space](https://docs.seattlecommunitynetwork.org/community/space) for details.
