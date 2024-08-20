@@ -7,3 +7,4 @@ nav:
   - epc-setup.md
   - sas-setup.md
   - proxmox-vaultwarden-deployment.md
+  - librenms
