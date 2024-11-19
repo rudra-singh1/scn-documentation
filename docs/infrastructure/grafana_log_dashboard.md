@@ -39,7 +39,7 @@ services:
     networks:
       - loki
     volumes:
-      - grafana-data:/path  # Adding persistence for Grafana data 
+      - grafana-data:/path # [CHANGE THIS LINE] Adding persistence for Grafana data 
 
   loki:
     image: grafana/loki:latest
@@ -48,16 +48,16 @@ services:
     networks:
       - loki
     volumes:
-      - ./path  # Local directory for Loki data
+      - ./path  # [CHANGE THIS LINE] Local directory for Loki data
     user: "10001"  # Run Loki as the appropriate user to avoid permission issues
 
   promtail:
     image: grafana/promtail:latest
-    command: "-config.file=/etc/promtail/config.yaml"
+    command: "-config.file=/etc/promtail/config.yaml" # [CHANGE THIS LINE] 
     networks:
       - loki
     volumes:
-      - "/var/log:/var/log"  # Mounting host logs
+      - "/var/log:/var/log"  # [CHANGE THIS LINE] Mounting host logs
 
 networks:
   loki:
@@ -79,6 +79,12 @@ volumes:
 
 To aggregate logs from other servers, we set up a method of transferring logs to the Grafana server. The logs are pulled into the Grafana server, where they are processed and rendered on a Grafana dashboard.
 
+Here’s the updated section of the `README` with the requested changes marked. The rest remains unchanged.
+
+---
+
+## Step 5: Configure Data Sources (Logs)
+
 ### 5.1: Write a Bash Script to Pull Logs
 
 Here’s an example of a script (`transfer_logs.sh`) to pull logs from another server:
@@ -87,14 +93,14 @@ Here’s an example of a script (`transfer_logs.sh`) to pull logs from another s
 #!/bin/bash
 
 # Define variables
-REMOTE_SERVER="root@server_ip"  # Remote server IP
-SSH_KEY_PATH="path"  # Path to SSH key
-DEST_DIR="path"  # Destination directory on the Grafana server
+REMOTE_SERVER="root@server_ip"  # [CHANGE THIS LINE] Remote server IP
+SSH_KEY_PATH="path"  # [CHANGE THIS LINE] Path to SSH key
+DEST_DIR="path"  # [CHANGE THIS LINE] Destination directory on the Grafana server
 
 # Define paths for logs
-DOCKER_LOG="path/to/docker/log"
-NGINX_LOG="path/to/nginx/log"
-SYSLOG="path/to/syslog"
+DOCKER_LOG="path/to/docker/log"  # [CHANGE THIS LINE] Path to Docker log on remote server
+NGINX_LOG="path/to/nginx/log"  # [CHANGE THIS LINE] Path to NGINX log on remote server
+SYSLOG="path/to/syslog"  # [CHANGE THIS LINE] Path to syslog on remote server
 
 # Create directories if they don't exist
 mkdir -p "$DEST_DIR/docker" "$DEST_DIR/nginx" "$DEST_DIR/syslog"
@@ -127,30 +133,24 @@ positions:
   filename: /tmp/positions.yaml
 
 clients:
-  - url: http://server_ip:3100/loki/api/v1/push  # Loki's URL
+  - url: http://server_ip:3100/loki/api/v1/push  # [CHANGE THIS LINE] Loki's URL
 
 scrape_configs:
   - job_name: docker_logs
     static_configs:
       labels:
         job: docker
-        __path__: /path/to/logs/on/grafana/server/docker/*.log
+        __path__: /path/to/logs/on/grafana/server/docker/*.log  # [CHANGE THIS LINE] Path to Docker logs
   - job_name: nginx_logs
     static_configs:
       labels:
         job: nginx
-        __path__: /path/to/logs/on/grafana/server/nginx/*.log
+        __path__: /path/to/logs/on/grafana/server/nginx/*.log  # [CHANGE THIS LINE] Path to NGINX logs
   - job_name: syslog_logs
     static_configs:
       labels:
         job: syslog
-        __path__: /path/to/logs/on/grafana/server/syslog/*.log
-```
-
-Run Promtail with this configuration:
-
-```bash
-sudo ./promtail-linux-amd64 -config.file=promtail-config.yaml
+        __path__: /path/to/logs/on/grafana/server/syslog/*.log  # [CHANGE THIS LINE] Path to syslog logs
 ```
 
 ---
@@ -243,7 +243,7 @@ import subprocess
 
 class ScriptHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        script_path = "/path/to/transfer_logs.sh"
+        script_path = "/path/to/transfer_logs.sh" # [CHANGE THIS LINE] 
 
         try:
             subprocess.run([script_path], check=True)
