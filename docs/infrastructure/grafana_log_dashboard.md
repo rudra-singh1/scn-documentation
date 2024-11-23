@@ -1,3 +1,6 @@
+---
+title: Grafana Logging Dashboard Guide 
+---
 # Grafana Server Log Monitoring Dashboard Setup
 
 ## Developed By: Rudra Prakash Singh, Esther Jang
